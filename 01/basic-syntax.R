@@ -11,7 +11,7 @@ cat(1, ':', 'a', '\n', 2, ':', 'b', '\n', sep="")
 
 #
 var1 <- 10
-# var1
+var1
 print(var1)
 var2 <- Sys.Date()
 print(var2)
