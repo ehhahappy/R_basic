@@ -31,7 +31,7 @@ sample(1:10) # shuffle
 
 ## 표본 추출 2
 
-# install.packages("sampling") 
+install.packages("sampling") 
 library(sampling);
 
 iris
@@ -50,7 +50,7 @@ strata(c("Species", "Species2"), size =c(1, 1, 1, 1, 1, 1) ,
        method ="srswr", data = iris )
 
 ## 표본 추출 3
-# install.packages("doBy")
+install.packages("doBy")
 library(doBy);
 
 #각 층마다 동일한 표본 추출
