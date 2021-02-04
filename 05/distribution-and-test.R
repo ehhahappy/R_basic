@@ -80,7 +80,7 @@ corrgram(cor(iris[, 1:4]), type = "corr", upper.panel = panel.conf)
 
 ## 상관계수 3
 
-# install.packages("Hmisc")
+install.packages("Hmisc")
 library(Hmisc)
 x <- c(3, 4, 5, 3, 2, 1, 7, 5)
 rank(sort(x))
@@ -91,7 +91,7 @@ rcorr(m, type = "pearson")$r
 rcorr(m, type = "spearman")$r
 
 ### 상관계수 4
-# install.packages("Kendall")
+install.packages("Kendall")
 library(Kendall)
 Kendall(m[,1], m[,2])
 
