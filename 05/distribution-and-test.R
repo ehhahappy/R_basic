@@ -115,7 +115,7 @@ xt
 
 ### 카이제곱 검정
 
-# install.packages("gmodels")
+install.packages("gmodels")
 library(gmodels)
 
 study <- read.csv("data-files/pass-cross.csv", header = T)
